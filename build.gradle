@@ -4,6 +4,8 @@ plugins {
 }
 
 vendordep {
+	// URL to the Maven repo directory to publish to
 	mavenRepoUrl = "$rootDir/repos"
+	// Enables the combiner plugin, which takes the build output from one or more builds and publishes them to the repo
 	enableCombiner = true
 }
